@@ -155,25 +155,25 @@
         <h3>Information You Provide</h3>
         <table>
             <tr><th>Data Type</th><th>Purpose</th><th>Required?</th></tr>
-            <tr><td>Account info (name, email)</td><td>Authentication & profile</td><td><span class="badge badge-green">Optional</span></td></tr>
+            <tr><td>Account info (name, email)</td><td>Authentication &amp; profile</td><td><span class="badge badge-green">Optional</span></td></tr>
             <tr><td>Fitness profile (age, weight, height, goals)</td><td>Personalized recommendations</td><td><span class="badge badge-green">Optional</span></td></tr>
             <tr><td>Workout logs (exercises, sets, reps, weights)</td><td>Progress tracking</td><td><span class="badge badge-blue">If used</span></td></tr>
-            <tr><td>Meal & nutrition logs</td><td>Calorie & macro tracking</td><td><span class="badge badge-blue">If used</span></td></tr>
+            <tr><td>Meal &amp; nutrition logs</td><td>Calorie &amp; macro tracking</td><td><span class="badge badge-blue">If used</span></td></tr>
             <tr><td>Progress photos</td><td>Body composition analysis</td><td><span class="badge badge-green">Optional</span></td></tr>
         </table>
 
         <h3>Information Collected Automatically</h3>
         <table>
             <tr><th>Data Type</th><th>Purpose</th></tr>
-            <tr><td>Device type & OS version</td><td>App compatibility & bug fixes</td></tr>
+            <tr><td>Device type &amp; OS version</td><td>App compatibility &amp; bug fixes</td></tr>
             <tr><td>App usage analytics</td><td>Feature improvement</td></tr>
-            <tr><td>Crash reports</td><td>Stability & performance</td></tr>
+            <tr><td>Crash reports</td><td>Stability &amp; performance</td></tr>
         </table>
 
         <h3>Information From Third-Party Services</h3>
         <table>
             <tr><th>Source</th><th>Data</th><th>Purpose</th></tr>
-            <tr><td>Apple HealthKit</td><td>Steps, sleep, weight, workout data</td><td>Health tracking & insights</td></tr>
+            <tr><td>Apple HealthKit</td><td>Steps, sleep, weight, workout data</td><td>Health tracking &amp; insights</td></tr>
             <tr><td>Google Sign-In</td><td>Name, email, profile photo</td><td>Authentication</td></tr>
             <tr><td>Sign in with Apple</td><td>Name, email</td><td>Authentication</td></tr>
         </table>
@@ -184,7 +184,7 @@
         <h2><span class="icon">❤️</span> Apple HealthKit</h2>
         <p>GymFusion integrates with Apple HealthKit to read and write health data with your explicit permission. We access:</p>
         <ul>
-            <li><strong>Steps & walking data</strong> — to track daily activity</li>
+            <li><strong>Steps &amp; walking data</strong> — to track daily activity</li>
             <li><strong>Sleep data</strong> — to monitor recovery</li>
             <li><strong>Body weight</strong> — to track trends and calculate metrics</li>
             <li><strong>Workout data</strong> — to sync exercise sessions</li>
@@ -207,13 +207,13 @@
         </ul>
 
         <h3>Third-Party AI Service Provider</h3>
-        <p>AI features are powered by <strong>Anthropic (Claude AI)</strong>. When you use any AI-powered feature, the following data may be sent to Anthropic's servers for processing:</p>
+        <p>AI features are powered by <strong>Anthropic, PBC (Claude AI)</strong>. When you use any AI-powered feature, the following personal data may be sent to Anthropic's servers for processing:</p>
         <ul>
             <li><strong>Meal photos</strong> — for calorie and macro estimation</li>
             <li><strong>Water glass photos</strong> — for volume estimation</li>
             <li><strong>Workout history</strong> — for AI coaching insights and recommendations</li>
             <li><strong>Progress photos and body measurements</strong> — for body composition analysis</li>
-            <li><strong>Fitness profile</strong> — goals, experience level, and preferences for personalized recommendations</li>
+            <li><strong>Fitness profile</strong> — goals, experience level, age, gender, and preferences for personalized recommendations</li>
         </ul>
 
         <h3>How AI Data is Handled</h3>
@@ -224,19 +224,21 @@
             <li>Not stored beyond the duration needed to process your request</li>
             <li>Transmitted securely via encrypted HTTPS connections</li>
             <li>Subject to <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a></li>
+            <li>Anthropic provides the same or equal protection of user data as described in this privacy policy</li>
         </ul>
 
         <h3>Your Consent</h3>
-        <p>Before using any AI feature for the first time, you will be prompted to review and consent to the data sharing described above. AI features are entirely optional — the app functions fully without them. You may revoke your consent at any time in the app's Settings, which will disable all AI-powered features.</p>
+        <p>Before using any AI feature, the app will present a mandatory consent screen that clearly discloses what personal data will be sent, identifies Anthropic (Claude AI) as the third-party recipient, and requires your explicit agreement before any data is shared. This consent screen appears on every app launch until you accept. AI features are entirely optional — the app functions fully without them.</p>
+        <p>You may revoke your consent at any time in the app's More tab under AI Data Consent, which will disable all AI-powered features. Upon revocation, no further data will be sent to Anthropic.</p>
 
         <div class="highlight-box">
-            <p>No data is sent to Anthropic unless you actively use an AI feature and have provided consent. Progress photos sent for body composition analysis are processed in real-time and are not permanently stored on any external server.</p>
+            <p>No data is sent to Anthropic unless you actively use an AI feature and have provided explicit consent. Progress photos sent for body composition analysis are processed in real-time and are not permanently stored on any external server.</p>
         </div>
     </div>
 
     <!-- CAMERA & PHOTOS -->
     <div class="card">
-        <h2><span class="icon">📸</span> Camera & Photo Library</h2>
+        <h2><span class="icon">📸</span> Camera &amp; Photo Library</h2>
         <p>GymFusion requests camera and photo library access for:</p>
         <ul>
             <li><strong>Meal scanning</strong> — to photograph food for calorie estimation</li>
@@ -249,7 +251,7 @@
 
     <!-- CLOUD SYNC & STORAGE -->
     <div class="card">
-        <h2><span class="icon">☁️</span> Cloud Sync & Data Storage</h2>
+        <h2><span class="icon">☁️</span> Cloud Sync &amp; Data Storage</h2>
         <p>GymFusion uses Firebase (by Google) to provide:</p>
         <ul>
             <li><strong>Authentication</strong> — secure sign-in via email, Google, or Apple</li>
@@ -275,7 +277,7 @@
 
     <!-- SUBSCRIPTIONS -->
     <div class="card">
-        <h2><span class="icon">💳</span> Subscriptions & Payments</h2>
+        <h2><span class="icon">💳</span> Subscriptions &amp; Payments</h2>
         <p>GymFusion offers optional premium features via in-app subscriptions managed entirely through Apple's App Store. We do not collect, store, or have access to your payment information. All billing is handled by Apple.</p>
     </div>
 
@@ -284,7 +286,7 @@
         <h2><span class="icon">🤝</span> Data Sharing</h2>
         <p>We do not sell your personal data. We may share information only in these limited circumstances:</p>
         <ul>
-            <li><strong>Service providers</strong> — Firebase (cloud storage & auth), Anthropic (AI features — Claude AI) — bound by confidentiality agreements and their respective privacy policies</li>
+            <li><strong>Service providers</strong> — Firebase (cloud storage &amp; auth), Anthropic (AI features — Claude AI) — bound by confidentiality agreements and their respective privacy policies. Each third-party provider is required to provide the same or equal protection of user data as described in this privacy policy.</li>
             <li><strong>Legal requirements</strong> — if required by law, subpoena, or to protect safety</li>
             <li><strong>Anonymized analytics</strong> — aggregated, non-identifiable usage data to improve the app</li>
         </ul>
@@ -292,15 +294,16 @@
 
     <!-- YOUR RIGHTS -->
     <div class="card">
-        <h2><span class="icon">✅</span> Your Rights & Choices</h2>
+        <h2><span class="icon">✅</span> Your Rights &amp; Choices</h2>
         <ul>
             <li><strong>Access</strong> — request a copy of your data</li>
             <li><strong>Deletion</strong> — request deletion of your account and all associated data</li>
             <li><strong>Opt out</strong> — uninstall the app to stop all data collection</li>
             <li><strong>Permissions</strong> — revoke camera, HealthKit, or notification access anytime in device Settings</li>
+            <li><strong>AI consent</strong> — revoke AI data sharing consent anytime in the app's More tab under AI Data Consent</li>
             <li><strong>AI features</strong> — AI features are optional; the app works fully without them</li>
         </ul>
-        <p>To exercise any of these rights, contact us at <a href="/cdn-cgi/l/email-protection#ceafa6a3abaaafa2a7fff6fdf8fc8ea9a3afa7a2e0ada1a3"><span class="__cf_email__" data-cfemail="c6a7aeaba3a2a7aaaff7fef5f0f486a1aba7afaae8a5a9ab">[email&#160;protected]</span></a>. We will respond within 30 days.</p>
+        <p>To exercise any of these rights, contact us at <a href="mailto:ahmedali420911@gmail.com">ahmedali420911@gmail.com</a>. We will respond within 30 days.</p>
     </div>
 
     <!-- CHILDREN -->
@@ -313,6 +316,7 @@
     <div class="card">
         <h2><span class="icon">🗄️</span> Data Retention</h2>
         <p>We retain your data for as long as your account is active or as needed to provide you services. If you delete your account, we will delete your personal data within 30 days, except where required by law. Anonymized, aggregated data may be retained for analytics purposes.</p>
+        <p>Data sent to Anthropic for AI processing is not retained by Anthropic beyond the duration needed to generate a response. No permanent copies of your data are stored by Anthropic.</p>
     </div>
 
     <!-- SECURITY -->
@@ -344,4 +348,15 @@
     <div class="card">
         <h2><span class="icon">📬</span> Contact Us</h2>
         <p>If you have any questions about this Privacy Policy or your data, please contact:</p>
-        <p><strong>Ah
+        <p><strong>Ahmed Ali</strong></p>
+        <p>Email: <a href="mailto:ahmedali420911@gmail.com">ahmedali420911@gmail.com</a></p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 GymFusion. All rights reserved.</p>
+</div>
+
+</body>
+</html>
